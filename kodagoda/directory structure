@@ -1,0 +1,21 @@
+/opt/lampp/htdocs/kodagoda/
+├── admin.php
+├── blog.php
+├── blog_post.php
+├── contact.php
+├── database.sql
+├── delete_blog.php
+├── delete_service.php
+├── edit_blog.php
+├── edit_service.php
+├── index.php
+├── navbar.php
+├── scripts.js
+├── service_detail.php
+├── services.php
+├── styles.css
+├── update_blog.php
+├── update_service.php
+├── upload_blog.php
+├── upload_service.php
+└── uploads/
