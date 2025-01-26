@@ -1,6 +1,14 @@
-body {
-    padding-top: 56px;
+html, body {
+    height: 100%;
+    margin: 0;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 56px; /* Height of the main navbar */
+}
+
 .jumbotron {
     background-image: url('flowers.jpg');
     background-size: cover;
@@ -43,7 +51,7 @@ body {
         content: "";
         position: absolute;
         inset: calc(100% - 3px) 0 0 0; /* 3px = the thickness */
-        background: #ce4f20; /* the color */
+        background: #ba7ec9; /* the color */
         scale: 0 1;
         transition: .3s, translate 0s .3s;
       }
@@ -66,8 +74,8 @@ body {
       /*about bg*/
 
         .aboutbg{
-            background-image: url('images/aboutbg.png');
-            background-size: cover;
+            background-image: url('images/aboutbg2.png');
+            background-size:cover;
             text-align: center;
         }
 
@@ -191,7 +199,51 @@ body {
 .space-grotesk-thin {
   font-family: "Space Grotesk", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
+
+.container-flex {
+    flex: 1;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Add margin to the top of the categories navbar */
+.categories-navbar {
+    margin-top: 0; /* No additional margin needed */
+}
+
+body{
+    background-color: #ddcad6;
+  }
+
+.cardcolor{
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: #a460c4 5px 5px 5px;
+}
+
+.bgflower{
+    background-image: url('images/abflower.png');
+    background-size:cover;
+    text-align: center;
+}
+
+.mailinut{
+    width: 80%;
+    height: 80%;
+    box-shadow: 10px 10px 5px gray; 
+    border-radius: 10px;
+    align-content: center;
+}
+
   

@@ -8,9 +8,9 @@
     <link href="stylesindex.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 </head>
-<body class="space-grotesk-thin">
+<body class="space-grotesk-thin aboutbg">
     <?php include 'navbar.php'; ?>
     <?php include 'categories_navbar.php'; ?>
 
@@ -67,15 +67,6 @@
         </div>
     </div>
 
-    <footer class="py-4 bg-dark text-white-50">
-        <div class="container text-center">
-            <small>&copy; 2023 Flower Shop. All Rights Reserved.</small>
-        </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="scripts.js"></script>
+    <?php include 'footer.php'; ?>
 </body>
 </html>

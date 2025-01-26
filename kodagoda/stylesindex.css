@@ -43,7 +43,7 @@ body {
         content: "";
         position: absolute;
         inset: calc(100% - 3px) 0 0 0; /* 3px = the thickness */
-        background: #ce4f20; /* the color */
+        background: #ba7ec9; /* the color */
         scale: 0 1;
         transition: .3s, translate 0s .3s;
       }
@@ -117,7 +117,7 @@ body {
 h1{
   padding-top: 50px;
   font-size: 4em;
-  color: #572512;
+  color: #85500c;
   text-align: center;
   height: 200px;
 }
@@ -146,7 +146,7 @@ h3{
 
 .abfont{
   font-size: 1.5em;
-  color: #572512;
+  color: #351b3f;
 }
 
 /*fonts*/
@@ -267,9 +267,12 @@ h3{
 }
 
 .aboutbg{
-  background-image: url('images/aboutbg.png');
-  background-size: cover;
+  background-image: url('images/abflower.png');
+  background-size:contain;
   text-align: center;
 }
 
+body{
+  background-color: #ddcad6;
+}
 
